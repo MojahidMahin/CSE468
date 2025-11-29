@@ -1,0 +1,110 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.c
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific directories
+cse468_project_task_1.ipynb
+annotations/
+coco_images/
+results/
+results_medical/
+checkpoint_*/
+*.csv
+data/
+models/
+
+# HuggingFace cache (model weights)
+.cache/
+.huggingface/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.pot
+
+# MCP and Claude Code specific
+.mcp.json
+.claude/
+
+# Large files that shouldn't be committed
+*.pth
+*.safetensors
+*.bin
+*.pt

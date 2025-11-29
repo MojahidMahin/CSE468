@@ -1,0 +1,17 @@
+# Evaluation Metrics for Medical Image Captioning
+# Install with: pip install -r requirements_evaluation.txt
+
+# Core metrics (lightweight)
+nltk>=3.8.1              # BLEU, METEOR scoring
+rouge-score>=0.1.2       # ROUGE metrics
+
+# Semantic similarity (optional, slower)
+bert-score>=0.3.13       # BERTScore for semantic evaluation
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# For GPU acceleration (optional)
+# torch>=2.0.0            # Already required for captioning
+# transformers>=4.30.0    # Already required for captioning
